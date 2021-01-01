@@ -28,8 +28,10 @@ Format of sample image is
 🐨 Local Setup
 Fork this repository.
 git clone https://github.com/ghanender-chauhan/Text-to-handwritting-OSF
-cd Text-to-handwriting-OSF
-python pip install pillow
+
+`cd Text-to-handwriting-OSF`
+
+`python pip install pillow`
 
 🤗 Hello First-time Contributors
 There are lot of resources (articles, courses, videos) available for getting started with git and GitHub you can search and follow any of the resource you like.
