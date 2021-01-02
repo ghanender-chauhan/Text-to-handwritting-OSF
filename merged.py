@@ -1,5 +1,5 @@
 from PIL import Image
-
+import os
  
 def split(word): 
     return list(word)
