@@ -6,8 +6,8 @@ THIS IS VERSION 1.0
 
 # Requirements
 1. python3.x
-2. pip install requests
-3. pip install pillow
+2. `pip install requests`
+3. `pip install pillow`
 
 # Usage
 
@@ -27,7 +27,8 @@ Format of sample image is
 
 🐨 Local Setup
 Fork this repository.
-git clone https://github.com/ghanender-chauhan/Text-to-handwritting-OSF
+
+`git clone https://github.com/ghanender-chauhan/Text-to-handwritting-OSF`
 
 `cd Text-to-handwriting-OSF`
 
@@ -46,6 +47,6 @@ Lastly, It is fine if you mess something up. If there is anything wrong in the P
 ## Web Version
 
 ### Site img
-![Demo img](https://github.com/av1shek/Text-to-handwritting-OSF/blob/main/web%20version/demo.png)
+![Demo img](https://github.com/ghanender-chauhan/Text-to-handwritting-OSF/blob/main/web%20version/demo.png)
 
 [Click Here](http://av1shek2.pythonanywhere.com/home/) to visit the site.
