@@ -40,12 +40,12 @@
   {% csrf_token %}
   <div class="form-group">
   {% if solved == "yes" %}
-<img src="/media/images/save/line.jpg" alt="Hand written img" class="rounded mx-auto d-block" width="100%"";>
+<img src="/media/images/save/line.png" alt="Hand written img" class="rounded mx-auto d-block" width="100%"";>
     {% endif %}
   
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Enter Text</label>
-    <textarea class="form-control" id="rawtext" name="rawtext" >{% if solved == "yes" %} {{ text }} {% endif %}</textarea>
+    <textarea class="form-control" id="rawtext" name="rawtext" >{% if solved == "yes" %}{{ text }}{% endif %}</textarea>
   </div>
   <button type="submit" class="btn btn-primary">Generate img</button>
   {% if solved == "yes" %}
